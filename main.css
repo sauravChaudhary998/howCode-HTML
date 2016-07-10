@@ -1,0 +1,18 @@
+body {
+  font-family:Verdana;
+}
+h1 {
+  color:green;
+}
+article {
+  width:800px;
+}
+article header p {
+  background-color: red;
+  color:white;
+}
+article figure {
+  width:600px;
+  border:3px solid black;
+  padding: 5px;
+}
