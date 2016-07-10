@@ -4,6 +4,13 @@
   <meta charset="utf-8" />
   <title>Form</title>
   <link rel="stylesheet" href="main.css" />
+  <style>
+  input[type="text"],
+input[type="email"] {
+  border: 1px solid blue;
+}
+  	</style>
+  </style>
 </head>
 <body>
   <form>
@@ -12,9 +19,9 @@
     </div>
     <div><input type="text" id="nickname" name="nickname" /></div>
     <div><label for="user-email">Your Email:</label></div>
-    <div><input type="email" id="user-email" name="user-email" /></div>
+    <div><input type="email" id="user-email" name="user-email" required /></div>
     <div><label for="content">Content:</label></div>
-    <div><textarea rows="10" cols="50" id="content" name="content"></textarea></div>
+    <div><textarea rows="10" cols="50" id="content" name="content" placeholder="Enter comment here. Please be polite and nice!"></textarea></div>
     <input type="submit" value="Add" /></div>
   </form>
 </body>
